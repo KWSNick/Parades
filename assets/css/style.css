@@ -1,0 +1,48 @@
+.noPadding {
+    padding: 0;
+}
+
+.paddingTopBottom12 {
+    padding: 12% 0;
+}
+
+.height100 {
+    height: 100%;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.bgHeader {
+    background-color: #fff;
+    box-shadow: 0vh 0vh 2vh #000000;
+    z-index: 99;
+}
+
+.navbar-brand img {
+    height: 10vh;
+}
+
+.taglinePadding {
+    padding: 1vh 0 1vh;
+}
+
+.divider {
+    width: 25%;
+    height: 0.25vh;
+    background-color: #000;
+    margin: 0 auto;
+}
+
+.hvr-sweep-to-bottom:before {
+    background: rgb(100,124,38,0.5);
+}
+
+.navLinkText {
+    font-size: 2.5vh;
+}
