@@ -1,4 +1,4 @@
-$("document").ready(function(){
+$("document").ready(function() {
     $(".container-fluid").addClass("noPadding");
     $("#header").addClass("col-12 noPadding navbar navbar-expand-xl navbar-light bgHeader");    
     $(".navbar-brand").addClass("col-2 noPadding");
@@ -10,11 +10,15 @@ $("document").ready(function(){
     $(".nav-item").addClass("col col-xl-6 noPadding");
     $(".nav-link").addClass("height100 width100 noPadding paddingTopBottom12 navLinkText hvr-sweep-to-bottom");
     $("#headerContact").addClass("d-none d-xl-block col-4 navBorderLeft");
-    $("#mainFooter").addClass("container-fluid");
+    $("#brands").addClass("jumbotron noMargin");
+    $(".brandSlides").addClass("row no-gutters d-none");
+    $(".brandSlides>a").addClass("col-2");
     $("#innerMainFooter").addClass("row no-gutters bgHeader");
     $("#innerMainFooterNav, #innerMainFooterNote, #innerMainFooterCopy").addClass("col-12 col-md-4 inlineBlock noPadding verticalCenter");
     $("#innerMainFooterNav>ul, #innerMainFooterNote>p, #innerMainFooterCopy>p").addClass("noMargin");
     $("#innerMainFooterNav>ul").addClass("d-flex flex-row noPadding noListStyle");
     $("#innerMainFooterNav>ul>li").addClass("ml-auto mr-auto");
-    $("#innerMainFooterNav>ul>li>a").addClass("")
+    $("#intro").addClass("col-12 font1 articlePadding");
+    $("#innerContents").addClass("col-8");
+    $("#sidebar").addClass("col-4");
 })

@@ -78,6 +78,14 @@
     list-style: none;
 }
 
+.font1 {
+    font-size: 1.5em;
+}
+
+.articlePadding {
+    padding: 3vw;
+}
+
 /*MEDIA QUERIES*/
 @media (max-width: 1199px) {
   .paddingTopBottom12 {

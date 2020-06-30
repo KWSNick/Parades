@@ -145,7 +145,7 @@ body {
 	font-size: 12px;
 	clear: both;
 }
-#sidebar {
+/*#sidebar {
 	margin: 0px;
 	padding: 0px;
 	float: right;
@@ -336,7 +336,7 @@ body {
 	padding-left: 100px;
 	list-style-type: square;
 	clear: both;
-}
+}*/
 #mainFooter {
 	/*width: 850px;*/
 	position: relative;
@@ -479,10 +479,10 @@ a:hover {
 a:active {
     color: #2B4B0C;
 }
-.paradesStyle {
+/*.paradesStyle {
 	font-size: 14px;
 	font-weight: bold;
-}
+}*/
 .rangeStyle {
 	border: thin solid #FFFF75;
 	background-image: url(images/rangeBackground.gif);
