@@ -11,5 +11,5 @@ function slideShow() {
   slideIndex++;
   if (slideIndex > slideArray.length) {slideIndex = 1}
   slideArray[slideIndex-1].classList.remove("d-none");
-  setTimeout(slideShow, 3000);
+  setTimeout(slideShow, 5000);
 }

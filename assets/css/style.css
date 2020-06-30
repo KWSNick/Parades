@@ -22,8 +22,16 @@
   padding: 12% 0;
 }
 
+.paddingBottom5vh {
+    padding-bottom: 5vh;
+}
+
 .height100 {
   height: 100%;
+}
+
+.height3vh {
+    height: 3vh;
 }
 
 .width100 {
@@ -38,6 +46,10 @@
   background-color: #fff;
   box-shadow: 0vh 0vh 2vh #000000;
   z-index: 99;
+}
+
+.bgJumbo {
+    background-image: url("../images/ptns/purty_wood_@2X.png");
 }
 
 .navbar-brand img {
@@ -84,6 +96,14 @@
 
 .articlePadding {
     padding: 3vw;
+}
+
+.textAlignLeft {
+    text-align: left;
+}
+
+.maxWidth100 {
+    max-width: 100%;
 }
 
 /*MEDIA QUERIES*/
