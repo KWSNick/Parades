@@ -11,8 +11,8 @@ $("document").ready(function() {
     $(".nav-link").addClass("height100 width100 noPadding paddingTopBottom12 navLinkText hvr-sweep-to-bottom");
     $("#headerContact").addClass("d-none d-xl-block col-4 navBorderLeft");
     $("#brands").addClass("jumbotron noMargin");
-    $(".brandSlides").addClass("row no-gutters d-none");
-    $(".brandSlides>a").addClass("col-2");
+    $(".brandSlides").addClass("row no-gutters");
+    $(".brandSlides>a").addClass("col-6 col-lg-2");
     $("#innerMainFooter").addClass("row no-gutters bgHeader");
     $("#innerMainFooterNav, #innerMainFooterNote, #innerMainFooterCopy").addClass("col-12 col-md-4 inlineBlock noPadding verticalCenter");
     $("#innerMainFooterNav>ul, #innerMainFooterNote>p, #innerMainFooterCopy>p").addClass("noMargin");
