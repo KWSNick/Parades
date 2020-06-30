@@ -1,59 +1,70 @@
 .noPadding {
-    padding: 0;
+  padding: 0;
+}
+
+.noBorder {
+  border: none;
 }
 
 .paddingTopBottom12 {
-    padding: 12% 0;
+  padding: 12% 0;
 }
 
 .height100 {
-    height: 100%;
+  height: 100%;
 }
 
 .width100 {
-    width: 100%;
+  width: 100%;
 }
 
 .fixed {
-    position: fixed;
+  position: fixed;
 }
 
 .bgHeader {
-    background-color: #fff;
-    box-shadow: 0vh 0vh 2vh #000000;
-    z-index: 99;
+  background-color: #fff;
+  box-shadow: 0vh 0vh 2vh #000000;
+  z-index: 99;
 }
 
 .navbar-brand img {
-    height: 10vh;
+  height: 10vh;
 }
 
 .taglinePadding {
-    padding: 1vh 0 1vh;
+  padding: 1vh 0 1vh;
 }
 
 .divider {
-    width: 25%;
-    height: 0.25vh;
-    background-color: #000;
-    margin: 0 auto;
+  width: 25%;
+  height: 0.25vh;
+  background-color: #000;
+  margin: 0 auto;
 }
 
 .hvr-sweep-to-bottom:before {
-    background: rgb(100,124,38,0.5);
+  background: rgb(100, 124, 38, 0.5);
 }
 
 .navLinkText {
-    font-size: 2.5vh;
+  font-size: 2.5vh;
 }
 
 .navBorderLeft {
-    border-left: 1px solid #c4c4c4;
+  border-left: 1px solid #c4c4c4;
 }
 .navBorderRight {
-    border-right: 1px solid #c4c4c4;
+  border-right: 1px solid #c4c4c4;
 }
 
 .nav-link:hover {
-    color: #fff !important;
+  color: #fff !important;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 1199px) {
+  .paddingTopBottom12 {
+    padding: 3vh;
+  }
 }
