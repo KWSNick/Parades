@@ -338,23 +338,23 @@ body {
 	clear: both;
 }
 #mainFooter {
-	width: 850px;
+	/*width: 850px;*/
 	position: relative;
 	margin: 0px;
 	padding: 0px;
 	clear: both;
-	background-color: #FFFFFF;
+	background-color: #FFF;
 }
 #innerMainFooter {
 	text-align: center;
 	color: #2B4B0C;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	padding: 3px;
+	/*padding: 3px;*/
 	line-height: 1.5em;
 }
 #innerMainFooterNav {
-	margin: 0px;
+	/*margin: 0px;*/
 	padding: 0px;
 }
 
@@ -363,7 +363,7 @@ body {
 	color: #2B4B0C;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 }
 #innerMainFooter a:link {
 	color: #2B4B0C;

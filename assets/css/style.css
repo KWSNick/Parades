@@ -6,6 +6,18 @@
   border: none;
 }
 
+.noMargin {
+    margin: 0;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.verticalCenter {
+    margin: auto 0;
+}
+
 .paddingTopBottom12 {
   padding: 12% 0;
 }
@@ -60,6 +72,10 @@
 
 .nav-link:hover {
   color: #fff !important;
+}
+
+.noListStyle {
+    list-style: none;
 }
 
 /*MEDIA QUERIES*/
