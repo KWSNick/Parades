@@ -46,3 +46,14 @@
 .navLinkText {
     font-size: 2.5vh;
 }
+
+.navBorderLeft {
+    border-left: 1px solid #c4c4c4;
+}
+.navBorderRight {
+    border-right: 1px solid #c4c4c4;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
