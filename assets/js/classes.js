@@ -13,7 +13,7 @@ $("document").ready(function() {
     $("#headerContact").addClass("d-none d-xl-block col-4 navBorderLeft");
     $("#jumboTicker").addClass("jumbotron noMargin noPadding bgJumbo");
     $(".jumboTickerSlides").addClass("row no-gutters");
-    $(".jumboTickerSlides>img").addClass("width100");
+    $(".jumboTickerSlides>img").addClass("maxWidth100");
     $("#innerMainFooter").addClass("row no-gutters bgHeader");
     $("#innerMainFooterNav, #innerMainFooterNote, #innerMainFooterCopy").addClass("col-12 col-md-4 inlineBlock noPadding verticalCenter");
     $("#innerMainFooterNav>ul, #innerMainFooterNote>p, #innerMainFooterCopy>p").addClass("noMargin");
