@@ -52,6 +52,15 @@
     background-image: url("../images/ptns/purty_wood_@2X.png");
 } /* Background pattern from Toptal Subtle Patterns */
 
+
+.bgGreenFibers {
+    background-image: url("../images/ptns/green_fibers_light.jpg");
+} /* Background pattern from Toptal Subtle Patterns */
+
+.bgGreenLeather {
+    background-image: url("../images/ptns/leather_1_green.jpg");
+} /* Background pattern from Toptal Subtle Patterns */
+
 .navbar-brand img {
   height: 10vh;
 }

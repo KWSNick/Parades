@@ -55,7 +55,7 @@ Hover CSS provides a library of CSS3 powered hover effects to be applied to link
 
 For parades these effects were used on the navigation menu items. 
 
-## License 
+### License 
 Hover CSS was applied to the Parades site under the Extended Commercial License held by NB Technical Services. 
 
 ## Toptal Subtle Patterns
@@ -64,7 +64,6 @@ Toptal Subtle Patterns provide seamless background image tiles that can be appli
 The Purty Wood 2x scale pattern was used in this website. 
 
 Toptal Subtle Patterns requires approiate credit in the source code, and a link to thier website https://www.toptal.com/designers/subtlepatterns/
-
 
 # Testing
 
