@@ -4,7 +4,7 @@ slideShow();
 function slideShow() {
   let i;
   let slideArray = [];
-  slideArray = document.getElementsByClassName("brandSlides");
+  slideArray = document.getElementsByClassName("jumboTickerSlides");
   for (i = 0; i < slideArray.length; i++) {
     slideArray[i].classList.add("d-none");
   };
