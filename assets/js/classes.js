@@ -11,7 +11,7 @@ $("document").ready(function() {
     $(".nav-item").addClass("col col-xl-6 noPadding");
     $(".nav-link").addClass("height100 width100 noPadding paddingTopBottom12 navLinkText hvr-sweep-to-bottom");
     $("#headerContact").addClass("d-none d-xl-block col-4 navBorderLeft");
-    $("#jumboTicker").addClass("jumbotron noMargin noPadding bgJumbo");
+    $("#jumboTicker").addClass("jumbotron noMargin noPadding bgWhite");
     $(".jumboTickerSlides").addClass("row no-gutters");
     $(".jumboTickerSlides>img").addClass("maxWidth100");
     $("#innerMainFooter").addClass("row no-gutters bgHeader");

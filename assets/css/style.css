@@ -84,7 +84,11 @@
   z-index: 99;
 }
 
-.bgJumbo {
+.bgWhite {
+    background-color: #fff;
+}
+
+.bgPurtyWood {
     background-image: url("../images/ptns/purty_wood.png");
 } /* Background pattern from Toptal Subtle Patterns */
 
@@ -95,6 +99,10 @@
 
 .bgGreenLeather {
     background-image: url("../images/ptns/leather_1_green.jpg");
+} /* Background pattern from Toptal Subtle Patterns */
+
+.bgBrownLeather {
+    background-image: url("../images/ptns/leather_1_brown.jpg");
 } /* Background pattern from Toptal Subtle Patterns */
 
 /*NAVBAR Styling*/
