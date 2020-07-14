@@ -65,6 +65,12 @@ The Purty Wood 2x scale pattern was used in this website.
 
 Toptal Subtle Patterns requires approiate credit in the source code, and a link to thier website https://www.toptal.com/designers/subtlepatterns/
 
+## Google Fonts
+Google Fonts offers open source font styling options for personal and commercial use. 2 fonts were used within style.css. A further 2 fonts were used within Logomakr to create the site logo.
+
+### License
+The use of this product was inline with Google API's terms of service https://developers.google.com/terms
+
 # Testing
 
 # Credits
