@@ -1,3 +1,15 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga&family=Montserrat&display=swap');
+
+.headerFont {
+    font-family: 'Lexend Giga', sans-serif;
+    margin: 0 auto 1em;
+    font-size: 1.8em;
+    color: #000;
+}
+
+/*font-family: 'Montserrat', sans-serif;*/
+
 /* Removing default styling*/
 .noPadding {
   padding: 0;
