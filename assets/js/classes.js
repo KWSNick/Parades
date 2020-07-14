@@ -1,6 +1,6 @@
 $("document").ready(function() {
     $("body").addClass("bgGreenFibers");
-    $("article").addClass("bgGlass");
+    $("article").addClass("bgGlass  articleMargin");
     $("h3").addClass("subHeaderFont");
     $(".container-fluid").addClass("noPadding");
     $("#header").addClass("col-12 noPadding navbar navbar-expand-xl navbar-light bgHeader");    
@@ -22,7 +22,7 @@ $("document").ready(function() {
     $("#innerMainFooterNav>ul, #innerMainFooterNote>p, #innerMainFooterCopy>p").addClass("noMargin");
     $("#innerMainFooterNav>ul").addClass("d-flex flex-row noPadding noListStyle");
     $("#innerMainFooterNav>ul>li").addClass("ml-auto mr-auto");
-    $("#intro").addClass("col-12 font1 articlePadding");
+    $("#intro").addClass("col-12 font1 noPadding");
     $("#innerContents").addClass("col-8");
     $("#sidebar").addClass("col-4");
 })
