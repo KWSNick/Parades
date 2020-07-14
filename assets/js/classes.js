@@ -26,6 +26,11 @@ $("document").ready(function() {
     $("#innerMainFooterNav>ul>li").addClass("ml-auto mr-auto");
     $("#intro").addClass("col-12 font1 noPadding");
     $("#innerContents").addClass("col-12 noPadding");
-    $("#innerContents>article>div").addClass("col-md-5 inlineBlock");
+    $("#ranges").addClass("accordion");
+    $("#innerContents>article>div").addClass("col-md-5 card noBackground inlineBlock");
+    $("#innerContents>article").children().children().even().addClass("card-header");
+    $("#ranges button").addClass("btn").attr("type","button").attr("data-toggle", "collapse").attr("aria-expanded", "false");
+    $("#innerContents>article").children().children().odd().addClass("collapse").attr("data-parent", "#ranges");
+    $("#innerContents>article>div>div>div").addClass("card-body");
     $("#sidebar").addClass("col-4");
 })
