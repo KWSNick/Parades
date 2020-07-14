@@ -16,6 +16,13 @@
     color: #000;
 }
 
+.minorHeaderFont {
+    font-family: 'Lexend Giga', sans-serif;
+    margin: 1rem auto 1rem;
+    font-size: 1.2rem;
+    color: #000;
+}
+
 .mainFont {
     font-family: 'Montserrat', sans-serif;
 }

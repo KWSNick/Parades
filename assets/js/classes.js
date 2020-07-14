@@ -3,6 +3,7 @@ $("document").ready(function() {
     //$("section").addClass("row no-gutters");
     $("article").addClass("bgGlass articleMargin");
     $("h3").addClass("subHeaderFont");
+    $("h4").addClass("minorHeaderFont");
     $(".container-fluid").addClass("noPadding");
     $("#header").addClass("col-12 noPadding navbar navbar-expand-xl navbar-light bgHeader");    
     $(".navbar-brand").addClass("col-6 col-xl-2 noPadding noMargin textAlignLeft");
@@ -25,6 +26,6 @@ $("document").ready(function() {
     $("#innerMainFooterNav>ul>li").addClass("ml-auto mr-auto");
     $("#intro").addClass("col-12 font1 noPadding");
     $("#innerContents").addClass("col-12 noPadding");
-    $("#innerContents>.row>article").addClass("col inlineBlock");
+    $("#innerContents>article>div").addClass("col-md-5 inlineBlock");
     $("#sidebar").addClass("col-4");
 })
