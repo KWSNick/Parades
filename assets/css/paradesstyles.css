@@ -96,7 +96,7 @@ body {
 	padding: 0px;
 }
 #innerNav ul {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
 	font-size: 14px;
 	margin: 0px;
 	list-style-image: none;
@@ -141,7 +141,7 @@ body {
 	width: 850px;
 	height: auto;
 	position: relative;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
 	font-size: 12px;
 	clear: both;
 }
@@ -348,7 +348,7 @@ body {
 #innerMainFooter {
 	text-align: center;
 	color: #2B4B0C;
-	font-family: Arial, Helvetica, sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
 	font-size: 12px;
 	/*padding: 3px;*/
 	line-height: 1.5em;
@@ -361,7 +361,7 @@ body {
 #innerMainFooter a {
 	text-align: center;
 	color: #2B4B0C;
-	font-family: Arial, Helvetica, sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
 	font-size: 12px;
 	/*text-decoration: underline;*/
 }
@@ -378,7 +378,7 @@ body {
 	color: #663300;
 }
 #innerMainFooterNote {
-	font-family: Arial, Helvetica, sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
 	font-size: 12px;
 }
 #contactPageContents {
@@ -411,7 +411,7 @@ body {
 	padding-bottom: 0px;
 }
 #contactPageContentsAddress p.telFaxEmail {
-	font-family: "Courier New", Courier, monospace;
+	/*font-family: "Courier New", Courier, monospace;*/
 	font-size: 14px;
 }
 #contactPageContentsAddress .parkingInfo {
@@ -438,7 +438,7 @@ body {
 
 
 h1 {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
 	font-size: 24px;
 	color: #2B4B0C;
 	margin: 0px;
@@ -492,5 +492,5 @@ a:active {
 }
 .companyInfoStyle {
 	font-size: 11px;
-	font-family: Geneva, Arial, Helvetica, sans-serif;
+	/*font-family: Geneva, Arial, Helvetica, sans-serif;*/
 }
