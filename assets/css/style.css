@@ -16,6 +16,10 @@
     color: #000;
 }
 
+.mainFont {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /*font-family: 'Montserrat', sans-serif;*/
 
 /* Removing default styling*/
@@ -86,7 +90,6 @@
 }
 
 .font1 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
 }
 
