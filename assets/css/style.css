@@ -48,6 +48,15 @@
     list-style: none;
 }
 
+/*Override Bootstrap Styling*/
+.btn:hover {
+    background: rgba(100,124,38,0.25);
+}
+.btn:focus {
+    box-shadow: none;
+    background: rgba(43,75,12,0.25);
+}
+
 /*Alignment and positioning*/
 .inlineBlock {
     display: inline-block;

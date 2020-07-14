@@ -1,13 +1,13 @@
 @charset "utf-8";
 /* Parades Fine Furniture CSS Document */
 /* Colours:
-#FFFFC6 - light yellow
-#FFFFAE - darker yellow
-#E6FFA7 - light green for text contrast
-#DEEBBC - very light olive green
-#647C26 - olive green (from leaf logo)
-#2B4B0C - dark green (from leaf logo)
-#663300 - brown
+#FFFFC6 rgb(255,255,198)- light yellow
+#FFFFAE rgb(255,255,174) - darker yellow
+#E6FFA7 rgb(230,255,167)- light green for text contrast
+#DEEBBC rgb(222,235,188)- very light olive green
+#647C26 rgb(100,124,38) - olive green (from leaf logo)
+#2B4B0C rgb(43,75,12) - dark green (from leaf logo)
+#663300 rgb(102,51,0) - brown
 */
 body {
 	margin: 0px;

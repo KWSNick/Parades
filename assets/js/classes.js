@@ -27,9 +27,9 @@ $("document").ready(function() {
     $("#intro").addClass("col-12 font1 noPadding");
     $("#innerContents").addClass("col-12 noPadding");
     $("#ranges").addClass("accordion");
-    $("#innerContents>article>div").addClass("col-md-5 card noBackground inlineBlock");
+    $("#innerContents>article>div").addClass("col-md-5 card noPadding noBackground noBorder inlineBlock");
     $("#innerContents>article").children().children().even().addClass("card-header");
-    $("#ranges button").addClass("btn").attr("type","button").attr("data-toggle", "collapse").attr("aria-expanded", "false");
+    $("#ranges button").addClass("btn width100").attr("type","button").attr("data-toggle", "collapse").attr("aria-expanded", "false");
     $("#innerContents>article").children().children().odd().addClass("collapse").attr("data-parent", "#ranges");
     $("#innerContents>article>div>div>div").addClass("card-body");
     $("#sidebar").addClass("col-4");
