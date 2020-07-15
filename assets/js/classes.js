@@ -33,8 +33,8 @@ $("document").ready(function() {
     $("#innerMainFooterNav>ul>li").addClass("ml-auto mr-auto");
     $("#intro").addClass("col-12 font1 noPadding");
     $("#innerContents").addClass("col-12 noPadding");
-    $("#ranges").addClass("accordion");
-    $("#innerContents>article>div").addClass("col-md-5 card noPadding noBackground noBorder inlineBlock");
+    $("#ranges").addClass("row accordion");
+    $("#innerContents>article>div").addClass("col-md-6 card noPadding noBackground noBorder inlineBlock");
     $("#innerContents>article").children().children().even().addClass("card-header");
     $("#ranges button").addClass("btn width100").attr("type","button").attr("data-toggle", "collapse").attr("aria-expanded", "false");
     $("#innerContents>article").children().children().odd().addClass("collapse").attr("data-parent", "#ranges");
