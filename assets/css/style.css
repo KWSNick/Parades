@@ -86,6 +86,10 @@
   padding: 12% 0;
 }
 
+.paddingTopBottom2vh {
+    padding: 2vh 0;
+}
+
 .paddingBottom5vh {
     padding-bottom: 5vh;
 }
