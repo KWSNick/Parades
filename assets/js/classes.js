@@ -18,6 +18,7 @@ $("document").ready(function() {
     $(".jumboTickerSlides #jumboCallouts").addClass("row no-gutters");
     $("#jumboCallouts").addClass("bgDarkGreen lightYellowFont height10vh");
     $("#jumboCallouts>aside").addClass("col-12");
+    $("#jumboCallouts>aside>p").addClass("noMargin");
     $(".jumboTickerSlides>img").addClass("maxWidth100");
     $(".jumboTickerSlides>h2").addClass("headerFont");
     $("#innerMainFooter").addClass("row no-gutters bgHeader");
