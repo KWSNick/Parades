@@ -13,4 +13,6 @@ $("document").ready(function(){
     $("#covid>button").click(function(){
         $("#covid").slideUp(500);
     });
+    $("#covid").addClass("alert alert-info noMargin");
+    $("#covidModal").addClass("modal fade").attr("tabindex","-1").attr("role", "dialog").attr("aria-labelledby", "covidModalLabel").attr("aria-hidden", "true");
 })
