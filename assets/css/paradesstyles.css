@@ -345,30 +345,30 @@ body {
 	clear: both;
 	background-color: #FFF;
 }
-#innerMainFooter {
+/*#innerMainFooter {
 	text-align: center;
 	color: #2B4B0C;
-	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	/*padding: 3px;*/
+	padding: 3px;
 	line-height: 1.5em;
 }
 #innerMainFooterNav {
-	/*margin: 0px;*/
-	padding: 0px;
+	margin: 0px;
+	padding: 0px;*/
 }
 
-#innerMainFooter a {
+/*#innerMainFooter a {
 	text-align: center;
 	color: #2B4B0C;
-	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	/*text-decoration: underline;*/
+	text-decoration: underline;*/
 }
-#innerMainFooter a:link {
+/*#innerMainFooter a:link {
 	color: #2B4B0C;
 }
-#innerMainFooter a:visited {
+/*#innerMainFooter a:visited {
 	color: #2B4B0C;
 }
 #innerMainFooter a:hover {
@@ -378,8 +378,8 @@ body {
 	color: #663300;
 }
 #innerMainFooterNote {
-	/*font-family: Arial, Helvetica, sans-serif;*/
-	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;*/
 }
 #contactPageContents {
 	margin: 0px;

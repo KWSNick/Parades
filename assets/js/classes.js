@@ -22,7 +22,7 @@ $("document").ready(function() {
     $(".jumboTickerSlides>img").addClass("maxWidth100");
     $(".jumboTickerSlides>h2").addClass("headerFont");
     $("#innerMainFooter").addClass("row no-gutters bgHeader");
-    $("#innerMainFooter").children().addClass("paddingTopBottom2vh");
+    $("#innerMainFooter").children().addClass("paddingTopBottom2vh footerFont");
     $("#innerMainFooterNav, #innerMainFooterNote, #innerMainFooterCopy").addClass("col-12 col-md-4 inlineBlock noPadding verticalCenter");
     $("#innerMainFooterNav>ul, #innerMainFooterNote>p, #innerMainFooterCopy>p").addClass("noMargin");
     $("#innerMainFooterNav>ul").addClass("d-flex flex-row noPadding noListStyle");
