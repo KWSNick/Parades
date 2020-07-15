@@ -7,13 +7,14 @@ $("document").ready(function() {
     $("#header").addClass("col-12 noPadding navbar navbar-expand-xl navbar-light bgHeader");    
     $(".navbar-brand").addClass("col-6 col-xl-2 noPadding noMargin textAlignLeft");
     $("#tagline").addClass("d-none d-xl-block col-2 navBorderLeft navBorderRight");
-    $("#tagline h1, #headerContact h1").addClass("d-block taglinePadding");
+    $("#tagline h1, #headerContact h1, #navbarContact h1").addClass("d-block taglinePadding");
     $("#hamburger").addClass("navbar-toggler ml-auto noBorder col-2 col-md-1 maxWidth100");
     $("#navbarNavigation").addClass("col height100 noPadding collapse navbar-collapse");
     $(".navbar-nav").addClass("col noPadding ml-auto");
     $(".nav-item").addClass("col col-xl-6 noPadding");
     $(".nav-link").addClass("height100 width100 noPadding paddingTopBottom12 navLinkText hvr-sweep-to-bottom");
     $("#headerContact").addClass("d-none d-xl-block col-4 navBorderLeft");
+    $("#navbarContact").addClass("d-block d-xl-none col-12");
     $("#jumboTicker").addClass("jumbotron noMargin noPadding bgWhite");
     $(".jumboTickerSlides #jumboCallouts").addClass("row no-gutters");
     $("#jumboCallouts").addClass("bgDarkGreen lightYellowFont");
