@@ -21,7 +21,7 @@ $("document").ready(function() {
     $(".jumboTickerSlides #jumboCallouts").addClass("row no-gutters");
     $("#abstract").addClass("bgLightOlive col-12 col-md-4 paddingTopBottom2vh paddingLeftRight2vh");
     $("#jumboCallouts").addClass("col-12 bgDarkGreen lightYellowFont");
-    $("#jumboCallouts>aside").addClass("col-12 paddingTopBottom12");
+    $("#jumboCallouts>aside").addClass("col-12 paddingTopBottom2vh");
     $("#jumboCallouts>aside>p").addClass("noMargin");
     $(".jumboTickerSlides>img").addClass("maxWidth100 maxHeight35vh");
     $(".jumboTickerSlides>h2").addClass("headerFont");
