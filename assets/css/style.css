@@ -225,6 +225,10 @@ a:active {
     color: #663300;
 }
 
+a:not([href]) {
+    color: #FFFFAE;
+}
+
 #innerMainFooter a {
     color: #647C26;
 }

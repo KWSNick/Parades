@@ -1,0 +1,12 @@
+.modalBtn {
+    padding: 0.75rem 0.75rem;
+}
+
+.modalUl {
+    padding-inline-start: 1.5rem;
+    margin: 0;
+}
+
+.modalLi {
+    margin: 1rem 0;
+}
