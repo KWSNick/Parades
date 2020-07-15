@@ -13,3 +13,19 @@ function slideShow() {
   slideArray[slideIndex-1].classList.remove("d-none");
   setTimeout(slideShow, 5000);
 }
+
+let asideIndex = 0;
+asideShow();
+
+function asideShow() {
+  let i;
+  let asideArray = [];
+  asideArray = $("#jumboCallouts>aside");
+  for (i = 0; i < asideArray.length; i++) {
+    asideArray[i].classList.add("d-none");
+  };
+  asideIndex++;
+  if (asideIndex > asideArray.length) {asideIndex = 1}
+  asideArray[asideIndex-1].classList.remove("d-none");
+  setTimeout(asideShow, 5000);
+}
