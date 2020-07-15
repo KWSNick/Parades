@@ -38,4 +38,5 @@ $("document").ready(function() {
     $("#innerContents>article>div>div>div").addClass("card-body");
     $("#sidebar").addClass("col-4");
     $("#covid").addClass("alert alert-info noMargin");
+    $("#covidModal").addClass("modal fade").attr("tabindex","-1").attr("role", "dialog").attr("aria-labelledby", "covidModalLabel").attr("aria-hidden", "true");
 })
