@@ -462,7 +462,7 @@ h3 {
 }*/
 
 
-a {
+/*a {
     color: #2B4B0C;
 }
 a:link {
@@ -477,7 +477,7 @@ a:hover {
 a:active {
     color: #2B4B0C;
 }
-/*.paradesStyle {
+.paradesStyle {
 	font-size: 14px;
 	font-weight: bold;
 }

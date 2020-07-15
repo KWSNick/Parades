@@ -26,6 +26,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.lightYellowFont {
+    color: #FFFFC6;
+}
+
 /* Removing default styling*/
 .noPadding {
   padding: 0;
@@ -157,6 +161,10 @@
     border-style: outset;
 }
 
+.bgDarkGreen {
+    background: #2B4B0C;
+}
+
 /*NAVBAR Styling*/
 .divider {
   width: 25%;
@@ -178,6 +186,29 @@
 
 .nav-link:hover {
   color: #fff !important;
+}
+
+/*Link Styling*/
+a {
+    color: #FFFFAE;
+}
+a:focus {
+    color: #E6FFA7;
+    background: rgba(222,235,188,0.25);
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+a:visited {
+	color: #647C26;
+}
+a:hover {
+	color: #E6FFA7;
+    background: rgba(222,235,188,0.25);
+    text-decoration: none;
+}
+a:active {
+    color: #663300;
 }
 
 /*MEDIA QUERIES*/

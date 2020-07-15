@@ -16,6 +16,7 @@ $("document").ready(function() {
     $("#headerContact").addClass("d-none d-xl-block col-4 navBorderLeft");
     $("#jumboTicker").addClass("jumbotron noMargin noPadding bgWhite");
     $(".jumboTickerSlides #jumboCallouts").addClass("row no-gutters");
+    $("#jumboCallouts").addClass("bgDarkGreen lightYellowFont");
     $("#jumboCallouts>aside").addClass("col-12");
     $(".jumboTickerSlides>img").addClass("maxWidth100");
     $(".jumboTickerSlides>h2").addClass("headerFont");
