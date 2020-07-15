@@ -15,11 +15,11 @@ $("document").ready(function() {
     $(".nav-link").addClass("height100 width100 noPadding paddingTopBottom12 navLinkText hvr-sweep-to-bottom");
     $("#headerContact").addClass("d-none d-xl-block col-4 navBorderLeft");
     $("#navbarContact").addClass("d-block d-xl-none col-12");
-    $("#jumboTicker").addClass("jumbotron noMargin noPadding row no-gutters bgWhite");
-    $("#jumboTicker").children("#abstract .jumboTickerSlides").addClass("inlineBlock no-gutters");
+    $("#jumboTicker").addClass("jumbotron noMargin noPadding row bgWhite");
+    $("#jumboTicker").children("#abstract .jumboTickerSlides").addClass("inlineBlock");
     $(".jumboTickerSlides").addClass("col-12 col-md-8");
-    $("#abstract").addClass("bgLightOlive col-12 col-md-4 paddingTopBottom2vh");
     $(".jumboTickerSlides #jumboCallouts").addClass("row no-gutters");
+    $("#abstract").addClass("bgLightOlive col-12 col-md-4 paddingTopBottom2vh paddingLeftRight2vh");
     $("#jumboCallouts").addClass("col-12 bgDarkGreen lightYellowFont");
     $("#jumboCallouts>aside").addClass("col-12 paddingTopBottom12");
     $("#jumboCallouts>aside>p").addClass("noMargin");

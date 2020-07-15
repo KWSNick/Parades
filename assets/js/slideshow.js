@@ -27,5 +27,5 @@ function asideShow() {
   asideIndex++;
   if (asideIndex > asideArray.length) {asideIndex = 1}
   asideArray[asideIndex-1].classList.remove("d-none");
-  setTimeout(asideShow, 2000);
+  setTimeout(asideShow, 3000);
 }
