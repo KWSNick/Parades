@@ -98,6 +98,10 @@
     height: 3vh;
 }
 
+.height10vh {
+    height: 10vh;
+}
+
 .width100 {
   width: 100%;
 }
