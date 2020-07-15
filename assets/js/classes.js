@@ -37,4 +37,5 @@ $("document").ready(function() {
     $("#innerContents>article").children().children().odd().addClass("collapse").attr("data-parent", "#ranges");
     $("#innerContents>article>div>div>div").addClass("card-body");
     $("#sidebar").addClass("col-4");
+    $("#covid").addClass("alert alert-info noMargin");
 })
