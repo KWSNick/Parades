@@ -1,6 +1,5 @@
 $("document").ready(function() {
     $("body").addClass("bgGreenFibers mainFont");
-    //$("section").addClass("row no-gutters");
     $("article").addClass("bgGlass articleMargin");
     $("h3").addClass("subHeaderFont");
     $("h4").addClass("minorHeaderFont noMargin");
