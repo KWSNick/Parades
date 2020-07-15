@@ -255,6 +255,11 @@ a:not([href]) {
     color: #FFFFAE;
 }
 
+#covid a {
+    color: #007BAD;
+    cursor: pointer;
+}
+
 /*MEDIA QUERIES*/
 @media (max-width: 1199px) {
   .paddingTopBottom12 {
