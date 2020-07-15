@@ -16,11 +16,12 @@ $("document").ready(function() {
     $("#headerContact").addClass("d-none d-xl-block col-4 navBorderLeft");
     $("#navbarContact").addClass("d-block d-xl-none col-12");
     $("#jumboTicker").addClass("jumbotron noMargin noPadding bgWhite");
+    $("#abstract").addClass("bgLightOlive col-12 col-md-4 paddingTopBottom2vh");
     $(".jumboTickerSlides #jumboCallouts").addClass("row no-gutters");
     $("#jumboCallouts").addClass("bgDarkGreen lightYellowFont");
     $("#jumboCallouts>aside").addClass("col-12 paddingTopBottom12");
     $("#jumboCallouts>aside>p").addClass("noMargin");
-    $(".jumboTickerSlides>img").addClass("maxWidth100");
+    $(".jumboTickerSlides>img").addClass("maxWidth100 maxHeight35vh");
     $(".jumboTickerSlides>h2").addClass("headerFont");
     $("#innerMainFooter").addClass("row no-gutters bgHeader");
     $("#innerMainFooter").children().addClass("paddingTopBottom2vh footerFont");

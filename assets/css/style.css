@@ -140,6 +140,10 @@
     max-width: 100%;
 }
 
+.maxHeight35vh {
+    max-height: 35vh;
+}
+
 /*Backgrounds*/
 .bgHeader {
   background-color: #fff;
@@ -177,6 +181,10 @@
 
 .bgDarkGreen {
     background: #2B4B0C;
+}
+
+.bgLightOlive {
+    background: #DEEBBC;
 }
 
 /*NAVBAR Styling*/
