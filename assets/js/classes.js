@@ -20,7 +20,7 @@ $("document").ready(function() {
     $("#jumboTicker").children("#abstract .jumboTickerSlides").addClass("inlineBlock");
     $(".jumboTickerSlides").addClass("col-12 col-md-8");
     $(".jumboTickerSlides #jumboCallouts").addClass("row no-gutters");
-    $("#abstract").addClass("bgLightOlive col-12 col-md-4 paddingTopBottom2vh paddingLeftRight2vh");
+    $("#abstract").addClass("bgLightOlive col-12 col-md-4 paddingTopBottom2vh paddingLeftRight2vh font1");
     $("#jumboCallouts").addClass("col-12 bgDarkGreen lightYellowFont");
     $("#jumboCallouts>aside").addClass("col-12 paddingTopBottom2vh");
     $("#jumboCallouts>aside>p").addClass("noMargin");

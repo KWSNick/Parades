@@ -36,6 +36,14 @@
     color: #FFFFC6;
 }
 
+.navLinkText {
+  font-size: 2.5vh;
+}
+
+.font1 {
+    font-size: 1.2rem;
+}
+
 /* Removing default styling*/
 .noPadding {
   padding: 0;
@@ -132,14 +140,6 @@
 
 .taglinePadding {
   padding: 1vh 0 1vh;
-}
-
-.navLinkText {
-  font-size: 2.5vh;
-}
-
-.font1 {
-    font-size: 1.3rem;
 }
 
 .articleMargin {
