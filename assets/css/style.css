@@ -316,7 +316,17 @@ a:not([href]) {
     cursor: pointer;
 }
 
+#abstract a {
+    cursor: pointer;
+}
+
 /*MEDIA QUERIES*/
+@media (min-width: 768px) {
+    #jumboCallouts {
+        letter-spacing: 0.3vw;
+    }
+}
+
 @media (max-width: 1199px) {
   .paddingTopBottom12 {
     padding: 3vh;
