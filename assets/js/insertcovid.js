@@ -16,6 +16,6 @@ $("document").ready(function(){
     $("#covid").addClass("alert alert-info noMargin");
     $("#covidModal").addClass("modal fade").attr("tabindex","-1").attr("role", "dialog").attr("aria-labelledby", "covidModalLabel").attr("aria-hidden", "true");
     $(".modal-footer>button").addClass("modalBtn");
-    $(".modal-body>ul").addClass("modalUl");
+    $(".modal-body>ul").addClass("modalUl textAlignLeft");
     $(".modal-body>ul>li").addClass("modalLi");
 })
