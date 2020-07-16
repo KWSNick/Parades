@@ -44,6 +44,6 @@ $("document").ready(function() {
     $("#ranges button").addClass("btn width100").attr("type","button").attr("data-toggle", "collapse").attr("aria-expanded", "false");
     $("#innerContents>article").children().children().odd().addClass("collapse").attr("data-parent", "#ranges");
     $("#innerContents>article>div>div>div").addClass("card-body whiteFont");
-    $(".card-header, .card-body").addClass("bgGlass bgDarken");
+    $(".card-header, .card-body").addClass("bgGlass bgDarken noPadding");
     $("#sidebar").addClass("col-4");
 })

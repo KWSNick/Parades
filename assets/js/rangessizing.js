@@ -5,7 +5,7 @@ $("document").ready(function () {
   $(".card-body").css({ height: varHeight - headerHeight });
   $(window).resize(function () {
     let varHeight = $(".card").width();
-    $(".card, .card-body").css({ height: varHeight });
+    $(".card").css({ height: varHeight });
     $(".card-body").css({ height: varHeight - headerHeight });
   });
 });
