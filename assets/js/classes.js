@@ -8,6 +8,7 @@ $("document").ready(function() {
     $(".navbar-brand").addClass("col-6 col-xl-2 noPadding noMargin textAlignLeft");
     $("#tagline").addClass("d-none d-xl-block col-2 navBorderLeft navBorderRight");
     $("#tagline h1, #headerContact h1, #navbarContact h1").addClass("d-block taglinePadding");
+    $("address").addClass("noMargin");
     $("#hamburger").addClass("navbar-toggler ml-auto noBorder col-2 col-md-1 maxWidth100");
     $("#navbarNavigation").addClass("col height100 noPadding collapse navbar-collapse");
     $(".navbar-nav").addClass("col noPadding ml-auto");
