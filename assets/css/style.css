@@ -197,6 +197,12 @@
     background: #DEEBBC;
 }
 
+.bgRecliner {
+    background-image: url("../images/products/Sandhurst_Recline_Tilt.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 /*NAVBAR Styling*/
 .divider {
   width: 25%;

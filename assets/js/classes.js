@@ -37,7 +37,7 @@ $("document").ready(function() {
     $("#ranges").addClass("row accordion");
     $("#innerContents>article>div").addClass("col-md-6 card noPadding noBackground noBorder inlineBlock");
     $("#innerContents>article").children().children().even().addClass("card-header");
-    $(".card-header>img").addClass("maxWidth100");
+    $(".card").addClass("bgRecliner");
     $("#ranges button").addClass("btn width100").attr("type","button").attr("data-toggle", "collapse").attr("aria-expanded", "false");
     $("#innerContents>article").children().children().odd().addClass("collapse").attr("data-parent", "#ranges");
     $("#innerContents>article>div>div>div").addClass("card-body");
