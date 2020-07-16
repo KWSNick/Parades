@@ -36,6 +36,10 @@
     color: #FFFFC6;
 }
 
+.whiteFont {
+    color: #fff;
+}
+
 .navLinkText {
   font-size: 2.5vh;
 }
@@ -68,6 +72,7 @@
 /*Override Bootstrap Styling*/
 .btn:hover {
     background: rgba(100,124,38,0.25);
+    color: #fff;
 }
 .btn:focus {
     box-shadow: none;
@@ -76,6 +81,7 @@
 
 .btn {
     padding: 1.375rem 0.75rem;
+    color: #fff;
 }
 
 #header img {
@@ -189,6 +195,10 @@
     border-style: outset;
 }
 
+.bgDarken {
+    background-color: rgba(0,0,0,0.3);
+}
+
 .bgDarkGreen {
     background: #2B4B0C;
 }
@@ -198,7 +208,25 @@
 }
 
 .bgRecliner {
-    background-image: url("../images/products/Sandhurst_Recline_Tilt.jpg");
+    background-image: url("../images/products/woburn_square.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bgCompact {
+    background-image: url("../images/products/strongbow_square.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bgSofa {
+    background-image: url("../images/products/kedleston_square.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bgDining {
+    background-image: url("../images/products/trafalgar_square.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
