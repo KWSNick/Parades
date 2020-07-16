@@ -124,6 +124,10 @@
     padding-right: 2vh;
 }
 
+.paddingLeftRightHalfvw {
+    padding: 0 0.5vw;
+}
+
 .height100 {
   height: 100%;
 }
