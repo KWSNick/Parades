@@ -10,3 +10,8 @@
 .modalLi {
     margin: 1rem 0;
 }
+
+#covid a {
+    color: #007BAD;
+    cursor: pointer;
+}

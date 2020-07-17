@@ -311,11 +311,6 @@ a:not([href]) {
     color: #FFFFAE;
 }
 
-#covid a {
-    color: #007BAD;
-    cursor: pointer;
-}
-
 #abstract a {
     cursor: pointer;
 }
