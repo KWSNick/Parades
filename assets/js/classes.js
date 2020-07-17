@@ -1,6 +1,7 @@
 $("document").ready(function() {
     $("body").addClass("bgGreenFibers mainFont");
     $("article").addClass("bgGlass articleMargin");
+    $("article>img").addClass("maxWidth100");
     $("h3").addClass("subHeaderFont");
     $("h4").addClass("minorHeaderFont noMargin");
     $(".container-fluid").addClass("noPadding");
@@ -47,5 +48,4 @@ $("document").ready(function() {
     $("#innerContents>article").children().children().odd().addClass("collapse").attr("data-parent", "#ranges");
     $("#innerContents>article>div>div>div").addClass("card-body whiteFont paddingLeftRightHalfvw");
     $(".card-header, .card-body").addClass("bgGlass bgDarken");
-    $("#sidebar").addClass("col-4");
 })
