@@ -40,7 +40,7 @@ $("document").ready(function() {
     $("#innerContents>article>div").addClass("col-md-6 col-xl-3 card noPadding noBackground noBorder inlineBlock");
     $("#innerContents>article").children().children().even().addClass("card-header noPadding");
     $(".card").first().addClass("bgRecliner");
-    $(".card").first().next().addClass("bgCompact");
+    $(".card").first().next().addClass("bgCabinet");
     $(".card").last().prev().addClass("bgSofa");
     $(".card").last().addClass("bgDining");
     $("#ranges button").addClass("btn width100").attr("type","button").attr("data-toggle", "collapse").attr("aria-expanded", "false");

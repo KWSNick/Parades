@@ -217,8 +217,8 @@
     background-size: contain;
 }
 
-.bgCompact {
-    background-image: url("../images/products/strongbow_square.jpg");
+.bgCabinet {
+    background-image: url("../images/ranges/cabinet.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
