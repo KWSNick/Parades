@@ -47,4 +47,7 @@ $("document").ready(function() {
     $("#innerContents>article").children().children().odd().addClass("collapse").attr("data-parent", "#ranges");
     $("#innerContents>article>div>div>div").addClass("card-body whiteFont paddingLeftRightHalfvw");
     $(".card-header, .card-body").addClass("bgGlass bgDarken");
+    $("#directions>div").addClass("row no-gutters");
+    $("#directions>div>div").addClass("col-lg-6 inlineBlock paddingTopBottom2vh");
+    $("#directions>div>div>img").addClass("maxWidth100");
 })
