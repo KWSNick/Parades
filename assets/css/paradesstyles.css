@@ -414,14 +414,14 @@ body {
 	/*font-family: "Courier New", Courier, monospace;*/
 	font-size: 14px;
 }
-#contactPageContentsAddress .parkingInfo {
+/*#contactPageContentsAddress .parkingInfo {
 	margin: 0px;
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 20px;
 	font-style: italic;
-}
+}*/
 #contactPageContentsAddress  .mapStyle {
 	margin-top: 0px;
 	margin-right: 0px;
