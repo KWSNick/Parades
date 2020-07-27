@@ -51,4 +51,5 @@ $("document").ready(function() {
     $("#directions>div>div").addClass("col-lg-6 inlineBlock paddingTopBottom2vh");
     $("#directions>div>div>img").addClass("maxWidth100");
     $("#directions ul").addClass("noPadding noListStyle");
+    $("#directions h4").removeClass("noMargin");
 })
