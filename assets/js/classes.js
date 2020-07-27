@@ -1,7 +1,6 @@
 $("document").ready(function() {
     $("body").addClass("bgGreenFibers mainFont");
     $("article").addClass("bgGlass articleMargin");
-    $("article>img").addClass("maxWidth100");
     $("h3").addClass("subHeaderFont");
     $("h4").addClass("minorHeaderFont noMargin");
     $(".container-fluid").addClass("noPadding");
@@ -27,7 +26,7 @@ $("document").ready(function() {
     $("#jumboCallouts").addClass("col-12 bgDarkGreen lightYellowFont");
     $("#jumboCallouts>aside").addClass("col-12 paddingTopBottom2vh");
     $("#jumboCallouts>aside>p").addClass("noMargin");
-    $(".jumboTickerSlides>img").addClass("maxWidth100 maxHeight35vh");
+    $(".jumboTickerSlides>img, article>img").addClass("maxWidth100 maxHeight35vh");
     $(".jumboTickerSlides>h2").addClass("headerFont");
     $("#innerMainFooter").addClass("row no-gutters bgHeader");
     $("#innerMainFooter").children().addClass("paddingTopBottom2vh footerFont");
