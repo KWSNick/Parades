@@ -52,4 +52,5 @@ $("document").ready(function() {
     $("#directions>div>div>img").addClass("maxWidth100");
     $("#directions ul").addClass("noPadding noListStyle");
     $("#directions h4").removeClass("noMargin");
+    $("button>i").addClass("chevronPadding");
 })
