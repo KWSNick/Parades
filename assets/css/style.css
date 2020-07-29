@@ -319,6 +319,10 @@ a:not([href]) {
     cursor: pointer;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 /*MEDIA QUERIES*/
 @media (min-width: 768px) {
     #jumboCallouts {
