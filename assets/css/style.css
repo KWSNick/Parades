@@ -323,6 +323,24 @@ a:not([href]) {
     text-decoration: underline;
 }
 
+h1 a {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+h1 a:hover {
+    color: black;
+}
+
+h1 a:focus {
+    color: black;
+}
+
+h1 a:visited {
+    color: black;
+}
+
 /*MEDIA QUERIES*/
 @media (min-width: 768px) {
     #jumboCallouts {
