@@ -26,7 +26,6 @@ $("document").ready(function() {
     $("#jumboCallouts").addClass("col-12 bgDarkGreen lightYellowFont");
     $("#jumboCallouts>aside").addClass("col-12 paddingTopBottom2vh");
     $("#jumboCallouts>aside>p").addClass("noMargin");
-    $("#jumboCallouts>aside>p>a").addClass("underline");
     $(".jumboTickerSlides>img, article>img").addClass("maxWidth100 maxHeight35vh");
     $(".jumboTickerSlides>h2").addClass("headerFont");
     $("#innerMainFooter").addClass("row no-gutters bgHeader");

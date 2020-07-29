@@ -264,63 +264,11 @@
 
 /*Link Styling*/
 a {
-    color: #FFFFAE;
-}
-a:focus {
-    color: #E6FFA7;
-    background: rgba(222,235,188,0.25);
-    border: none;
-    outline: none;
-    text-decoration: none;
-}
-a:visited {
-	color: #DEEBBC;
-}
-a:hover {
-	color: #E6FFA7;
-    background: rgba(222,235,188,0.25);
-    text-decoration: none;
-}
-a:active {
-    color: #663300;
+    color: #2B4B0C;
 }
 
 a:not([href]) {
-    color: #FFFFAE;
-}
-
-#innerMainFooter a, #abstract a {
-    color: #647C26;
-}
-
-#innerMainFooter a:focus, #abstract a:focus {
     color: #2B4B0C;
-    background: rgba(222,235,188,0.5);
-    border: none;
-    outline: none;
-    text-decoration: none;
-}
-
-#innerMainFooter a:visited, #abstract a:visited {
-    color: #663300;
-}
-
-#innerMainFooter a:hover, #abstract a:hover {
-    color: #2B4B0C;
-    background: rgba(222,235,188,0.5);
-    text-decoration: none;
-}
-
-#innerMainFooter a:active, #abstract a:active {
-    color: #FFFFAE;
-}
-
-#abstract a {
-    cursor: pointer;
-}
-
-.underline {
-    text-decoration: underline;
 }
 
 h1 a {
@@ -329,16 +277,58 @@ h1 a {
     font-size: inherit;
 }
 
-h1 a:hover {
-    color: black;
+#jumboCallouts a {
+    color: #FFFFAE;
+}
+
+a:focus {
+    color: #647C26;
+    background: rgba(222,235,188,0.25);
+    border: none;
+    outline: none;
+    text-decoration: none;
 }
 
 h1 a:focus {
-    color: black;
+    color: inherit;
+}
+
+#jumboCallouts a:focus {
+    color: #FFFFC6
+}
+
+a:visited {
+	color: #663300;
 }
 
 h1 a:visited {
-    color: black;
+    color: inherit;
+}
+
+#jumboCallouts a:visited {
+    color: #DEEBBC
+}
+
+a:hover {
+	color: #647C26;
+    background: rgba(222,235,188,0.25);
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: inherit;
+}
+
+#jumboCallouts a:hover {
+    color: #FFF;
+}
+
+a:active {
+    color: #FFFFAE;
+}
+
+#abstract a {
+    cursor: pointer;
 }
 
 /*MEDIA QUERIES*/
