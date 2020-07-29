@@ -18,7 +18,7 @@ $("document").ready(function() {
     $("#navbarContact").addClass("d-block d-xl-none col-12");
     $("#jumboTicker").addClass("jumbotron noMargin noPadding row bgWhite");
     $("#jumboTicker").children("#abstract .jumboTickerSlides").addClass("inlineBlock");
-    $(".jumboTickerSlides").addClass("col-12 col-md-8");
+    $(".jumboTickerSlides").addClass("noPadding col-12 col-md-8");
     $(".jumboTickerSlides #jumboCallouts").addClass("row no-gutters");
     $("#abstract").addClass("bgLightOlive col-12 col-md-4 paddingTopBottom2vh paddingLeftRight2vh font1");
     $("table").addClass("height100 width100");
@@ -53,4 +53,5 @@ $("document").ready(function() {
     $("#directions ul").addClass("noPadding noListStyle");
     $("#directions h4").removeClass("noMargin");
     $("button>i").addClass("chevronPadding");
+    $("#map").addClass("height100 width100");
 })
