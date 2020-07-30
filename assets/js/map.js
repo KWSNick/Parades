@@ -1,3 +1,12 @@
+$("document").ready(function () {
+    let abstractHeight = $("#abstract").innerHeight();
+    $("#map").css({height: abstractHeight});
+    $(window).resize(function () {
+        let abstractHeight = $("#abstract").innerHeight();
+        $("#map").css({height: abstractHeight});
+  });
+});
+
 function initMap() {
   let shop = { lat: 51.432297, lng: -0.510525 };
   let map = new google.maps.Map(document.getElementById("map"), {
