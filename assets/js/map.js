@@ -14,28 +14,29 @@ function initMap() {
     center: shop,
   });
 
-  let iconBase = '../images/';
-
-  let icons = {
-      shop: {
-          icon: iconBase + 'test_icon.png'
-      }
-  };
-
   let shopMarker = new google.maps.Marker({
     position: shop,
-    icon: { path: icons[shop].icon },
+    icon: {
+        url: "assets/images/mapIcons/chair.svg",
+        scaledSize: new google.maps.Size(50, 50)
+    },
     map: map,
   });
   let busStation = { lat: 51.432559, lng: -0.509132 };
   let trainStation = { lat: 51.432451, lng: -0.502975 };
   let busMarker = new google.maps.Marker({ 
       position: busStation, 
-      icon: { path: google.maps.SymbolPath.CIRCLE, scale: 6, fillOpacity: 1.0, fillColor: 'red', strokeColor: 'red', strokeWeight: 2 },
+      icon: {
+        url: "assets/images/mapIcons/bus.svg",
+        scaledSize: new google.maps.Size(35, 35)
+    },
       map: map });
   let trainMarker = new google.maps.Marker({
     position: trainStation,
-    icon: { path: google.maps.SymbolPath.CIRCLE, scale: 6, fillOpacity: 1.0, fillColor: 'red', strokeColor: 'red', strokeWeight: 2 },
+    icon: {
+        url: "assets/images/mapIcons/train.svg",
+        scaledSize: new google.maps.Size(35, 35)
+    },
     map: map,
   });
 
@@ -49,7 +50,10 @@ function initMap() {
   let markers = carParks.map(function (location, i) {
     return new google.maps.Marker({
       position: location,
-      icon: { path: google.maps.SymbolPath.BACKWARD_OPEN_ARROW, scale: 6, strokeColor: 'red', strokeWeight: 2 },
+      icon: {
+        url: "assets/images/mapIcons/carpark.svg",
+        scaledSize: new google.maps.Size(35, 35)
+    },
       map: map,
     });
   });

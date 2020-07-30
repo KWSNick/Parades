@@ -1,0 +1,18 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="202" width="202" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect rx="5" id="svg_5" height="25" width="21" y="149.453125" x="147.5" stroke-width="1.5" stroke="#0f0f00" fill="#000000"/>
+  <rect rx="5" id="svg_4" height="25" width="21" y="149.453125" x="31.5" stroke-width="1.5" stroke="#0f0f00" fill="#000000"/>
+  <rect stroke="#000" rx="20" id="svg_2" height="64.000002" width="120" y="42.453123" x="40" stroke-opacity="null" stroke-width="1.5" fill="#426373"/>
+  <rect stroke="#000" rx="20" id="svg_3" height="56.000001" width="105" y="49.453124" x="47.5" stroke-opacity="null" stroke-width="1.5" fill="#CBFFFF"/>
+  <rect rx="5" id="svg_1" height="70" width="149" y="87.453125" x="25.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#426373"/>
+  <rect stroke="#0f0f00" id="svg_6" height="35" width="90" y="104.453126" x="55.000002" fill-opacity="null" stroke-width="1.5" fill="#000000"/>
+  <rect transform="rotate(-25 100.00000000000007,122.95312499999997) " id="svg_8" height="5" width="60" y="120.453125" x="70.000004" stroke-width="1.5" stroke="#999999" fill="#999999"/>
+  <ellipse ry="11" rx="11" id="svg_9" cy="123.453125" cx="100.5" stroke-width="1.5" stroke="#999999" fill="#999999"/>
+ </g>
+</svg>
