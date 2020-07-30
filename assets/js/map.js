@@ -13,9 +13,18 @@ function initMap() {
     zoom: 16,
     center: shop,
   });
+
+  let iconBase = '../images/';
+
+  let icons = {
+      shop: {
+          icon: iconBase + 'test_icon.png'
+      }
+  };
+
   let shopMarker = new google.maps.Marker({
     position: shop,
-    icon: { path: google.maps.SymbolPath.BACKWARD_CLOSED_ARROW, scale: 8, fillOpacity: 1.0, fillColor: 'green', strokeColor: 'lightGreen', strokeWeight: 2 },
+    icon: { path: icons[shop].icon },
     map: map,
   });
   let busStation = { lat: 51.432559, lng: -0.509132 };
